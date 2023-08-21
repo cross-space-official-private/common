@@ -2,8 +2,8 @@ package eventbus
 
 import (
 	"fmt"
-	"github.com/cross-space-official/common/logger"
-	"github.com/cross-space-official/common/utils"
+	"github.com/cross-space-official-private/common/logger"
+	"github.com/cross-space-official-private/common/utils"
 )
 
 func Initialize() {

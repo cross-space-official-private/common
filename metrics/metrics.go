@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/cross-space-official/common/configuration"
+	"github.com/cross-space-official-private/common/configuration"
 	"github.com/newrelic/go-agent/v3/newrelic"
 )
 

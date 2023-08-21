@@ -2,7 +2,7 @@ package ratelimiter
 
 import (
 	"context"
-	"github.com/cross-space-official/common/configuration"
+	"github.com/cross-space-official-private/common/configuration"
 	"github.com/go-redis/redis/v8"
 	"github.com/go-redis/redis_rate/v9"
 	"sync"

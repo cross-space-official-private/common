@@ -2,17 +2,17 @@ package middleware
 
 import (
 	"encoding/json"
-	"github.com/cross-space-official/common/correlationId/middleware"
-	"github.com/cross-space-official/common/restful"
-	"github.com/cross-space-official/common/utils"
+	"github.com/cross-space-official-private/common/correlationId/middleware"
+	"github.com/cross-space-official-private/common/restful"
+	"github.com/cross-space-official-private/common/utils"
 	"github.com/go-playground/assert/v2"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cross-space-official/common/businesserror"
-	"github.com/cross-space-official/common/failure"
+	"github.com/cross-space-official-private/common/businesserror"
+	"github.com/cross-space-official-private/common/failure"
 	"github.com/gin-gonic/gin"
 	"runtime/debug"
 )

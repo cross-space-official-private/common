@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/assert/v2"
 	"io/ioutil"

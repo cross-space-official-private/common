@@ -1,12 +1,12 @@
 package middleware
 
 import (
-	"github.com/cross-space-official/common/consts"
-	"github.com/cross-space-official/common/correlationId/middleware"
-	"github.com/cross-space-official/common/failure"
-	"github.com/cross-space-official/common/logger"
-	"github.com/cross-space-official/common/ratelimiter"
-	"github.com/cross-space-official/common/restful"
+	"github.com/cross-space-official-private/common/consts"
+	"github.com/cross-space-official-private/common/correlationId/middleware"
+	"github.com/cross-space-official-private/common/failure"
+	"github.com/cross-space-official-private/common/logger"
+	"github.com/cross-space-official-private/common/ratelimiter"
+	"github.com/cross-space-official-private/common/restful"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

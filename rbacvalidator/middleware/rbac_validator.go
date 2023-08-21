@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/cross-space-official/common/consts"
-	"github.com/cross-space-official/common/failure"
-	"github.com/cross-space-official/common/rbacvalidator"
+	"github.com/cross-space-official-private/common/consts"
+	"github.com/cross-space-official-private/common/failure"
+	"github.com/cross-space-official-private/common/rbacvalidator"
 	"github.com/gin-gonic/gin"
 )
 

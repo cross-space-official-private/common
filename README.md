@@ -2,7 +2,7 @@
 A common library includes some useful struct and utils across all services.
 Import with 
 ```
-go get github.com/cross-space-official/common
+go get github.com/cross-space-official-private/common
 ```
 to get the latest version of common library.
 
@@ -48,7 +48,7 @@ Developers can easily obtain the logger with the `gin.Context` as input paramete
 This context is mandatory to make metadata like `correlation id` logs out properly.  
 ```
 import (
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/logger"
 )
 
 logger.GetLoggerEntry(c).Info("test")

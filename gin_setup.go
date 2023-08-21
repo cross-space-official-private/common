@@ -1,10 +1,10 @@
 package common
 
 import (
-	"github.com/cross-space-official/common/configuration"
-	correlationMiddleware "github.com/cross-space-official/common/correlationId/middleware"
-	"github.com/cross-space-official/common/metrics"
-	ginMiddleware "github.com/cross-space-official/common/restful/middleware"
+	"github.com/cross-space-official-private/common/configuration"
+	correlationMiddleware "github.com/cross-space-official-private/common/correlationId/middleware"
+	"github.com/cross-space-official-private/common/metrics"
+	ginMiddleware "github.com/cross-space-official-private/common/restful/middleware"
 	"github.com/gin-gonic/gin"
 	"github.com/newrelic/go-agent/v3/integrations/nrgin"
 	"net/http"

@@ -5,8 +5,8 @@ import (
 	recaptchapb "cloud.google.com/go/recaptchaenterprise/v2/apiv1/recaptchaenterprisepb"
 	"context"
 	"fmt"
-	"github.com/cross-space-official/common/configuration"
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/configuration"
+	"github.com/cross-space-official-private/common/logger"
 )
 
 type (

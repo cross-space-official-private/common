@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"bytes"
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"io/ioutil"

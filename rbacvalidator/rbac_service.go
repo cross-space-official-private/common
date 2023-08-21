@@ -2,9 +2,9 @@ package rbacvalidator
 
 import (
 	"context"
-	"github.com/cross-space-official/common/httpclient"
-	"github.com/cross-space-official/common/logger"
-	"github.com/cross-space-official/common/restful"
+	"github.com/cross-space-official-private/common/httpclient"
+	"github.com/cross-space-official-private/common/logger"
+	"github.com/cross-space-official-private/common/restful"
 	"github.com/gin-gonic/gin"
 )
 

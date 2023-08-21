@@ -2,7 +2,7 @@ package httpclient
 
 import (
 	"context"
-	"github.com/cross-space-official/common/consts"
+	"github.com/cross-space-official-private/common/consts"
 	"github.com/go-resty/resty/v2"
 	"github.com/sirupsen/logrus"
 	"time"

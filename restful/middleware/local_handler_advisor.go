@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/cross-space-official/common/utils"
+	"github.com/cross-space-official-private/common/utils"
 	"github.com/gin-gonic/gin"
 )
 

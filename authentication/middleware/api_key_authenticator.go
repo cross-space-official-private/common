@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/cross-space-official/common/consts"
-	"github.com/cross-space-official/common/failure"
+	"github.com/cross-space-official-private/common/consts"
+	"github.com/cross-space-official-private/common/failure"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,8 +3,8 @@ package middleware
 import (
 	"context"
 	"errors"
-	"github.com/cross-space-official/common/configuration"
-	"github.com/cross-space-official/common/ratelimiter"
+	"github.com/cross-space-official-private/common/configuration"
+	"github.com/cross-space-official-private/common/ratelimiter"
 	"github.com/go-redis/redis/v8"
 	"time"
 )

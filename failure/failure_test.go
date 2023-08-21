@@ -55,7 +55,7 @@ func TestGenerateFailureFromErrorx(t *testing.T) {
 	// Assert
 	assert.Equal(t, InvalidArgumentError, failure.ErrorCode)
 	assert.Equal(t, "test_error", failure.Message)
-	assert.Equal(t, "test_error\n at github.com/cross-space-official/common/failure.callB()\n\t/Users/sli/Development/common/failure/failure_test.go:67\n at github.com/cross-space-official/common/failure.callA()\n\t/Users/sli/Development/common/failure/failure_test.go:62\n at github.com/cross-space-official/common/failure.TestGenerateFailureFromErrorx()\n\t/Users/sli/Development/common/failure/failure_test.go:50\n at testing.tRunner()\n\t/usr/local/go/src/testing/testing.go:1439\n at runtime.goexit()\n\t/usr/local/go/src/runtime/asm_arm64.s:1263", failure.Stacktrace)
+	assert.Equal(t, "test_error\n at github.com/cross-space-official-private/common/failure.callB()\n\t/Users/sli/Development/common/failure/failure_test.go:67\n at github.com/cross-space-official-private/common/failure.callA()\n\t/Users/sli/Development/common/failure/failure_test.go:62\n at github.com/cross-space-official-private/common/failure.TestGenerateFailureFromErrorx()\n\t/Users/sli/Development/common/failure/failure_test.go:50\n at testing.tRunner()\n\t/usr/local/go/src/testing/testing.go:1439\n at runtime.goexit()\n\t/usr/local/go/src/runtime/asm_arm64.s:1263", failure.Stacktrace)
 }
 
 func callA() *errorx.Error {

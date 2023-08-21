@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"context"
-	"github.com/cross-space-official/common/configuration"
-	"github.com/cross-space-official/common/httpclient"
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/configuration"
+	"github.com/cross-space-official-private/common/httpclient"
+	"github.com/cross-space-official-private/common/logger"
 	"time"
 )
 

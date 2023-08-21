@@ -2,7 +2,7 @@ package eventbus
 
 import (
 	"context"
-	"github.com/cross-space-official/common/logger"
+	"github.com/cross-space-official-private/common/logger"
 	"time"
 )
 

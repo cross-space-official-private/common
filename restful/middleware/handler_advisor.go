@@ -2,14 +2,14 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/cross-space-official/common/businesserror"
+	"github.com/cross-space-official-private/common/businesserror"
 	"net/http"
 
-	"github.com/cross-space-official/common/correlationId/middleware"
-	"github.com/cross-space-official/common/failure"
-	"github.com/cross-space-official/common/logger"
-	"github.com/cross-space-official/common/restful"
-	"github.com/cross-space-official/common/utils"
+	"github.com/cross-space-official-private/common/correlationId/middleware"
+	"github.com/cross-space-official-private/common/failure"
+	"github.com/cross-space-official-private/common/logger"
+	"github.com/cross-space-official-private/common/restful"
+	"github.com/cross-space-official-private/common/utils"
 	"github.com/gin-gonic/gin"
 )
 

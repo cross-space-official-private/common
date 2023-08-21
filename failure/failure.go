@@ -3,7 +3,7 @@ package failure
 import (
 	"fmt"
 
-	"github.com/cross-space-official/common/businesserror"
+	"github.com/cross-space-official-private/common/businesserror"
 	"github.com/joomcode/errorx"
 )
 
