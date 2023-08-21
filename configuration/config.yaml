@@ -1,0 +1,6 @@
+data:
+  test-obj:
+    field-a: "1"
+    field-b: "2"
+    field-c: "3"
+  test-value: 8
